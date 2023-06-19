@@ -86,3 +86,4 @@
 // Patru procese cu durata de executie de 8, 4, 9 si 5 unitati sunt lansate la momentele 0, 1, 2, 3 pe un sistem monoprocesor. Care va fi timpul mediu
 //de terminare (TTM) daca se utilizeaza algoritmul procesul cu durata minima ramasa primul (Shortest Remaining Time First?): 15
 // Fie script-ul count_my_lines.sh avand urmatorul continut: lines=0 cat $0 | while read line do lines=$(expr $lines + 1) done echo "$lines". Dupa apelul ./..., se va afisa: 0
+// Fie urm script print.sh: test $# -e1 1 \ && && &&..... In urma autoapelului: 18
