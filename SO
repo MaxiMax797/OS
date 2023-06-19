@@ -1,0 +1,89 @@
+// Planificatorul de procese nu se apeleaza la: terminarea unui fir de executie
+// Ce este catching in cadrul unui sistem de operare: Este procesul de copiere a informatiilor intr-un sistem de stocare mai rapid
+// Ordonati crescator urm medii de stocare dupa raportul dintre viteaza operatiilor de citire/scriere si pretul pe unitatea de stocare:
+// HDD SATA 3, SDRAM DDR3, CACHE L3.
+// Ce face planificatorul CPU? Decide care proces va fi executat urmatorul. 
+// Ce este un proces? O secventa de instructiuni executate secvential.
+// Care dintre urm afirmatii este adevarata despre fragmentarea spatiului de stocare? Fragmentarea poate duce la utilizarea ineficienta a spatiului de stocare.
+// Ce se intampla cu adresa logica a unei instructiuni in timpul executiei unui proces? Este transformata in adresa fizica de catre unitatea de management a memoriei (MMU)
+// Ce inseamna securitatea prin obscuritate? Este un principiu de securitate care afirma ca securitatea unui sistem ar trebui sa depinda de necunoasterea detaliilorde impl.
+// Care din urm afirmatii despre adresa fizica este corecta? Adresa fizica este adresa de memorie vazuta de unitatea de memorie.
+// Ce este tabelul de pagini? O structura de date care urmareste nr de page faults.
+// Ce este context switch? Salvarea starii vechiului proces si incarcarea starii anterioare salvate noului proces.
+// Ierarhia de tutela pe niveluri asociaza: Un nivel cu un index mai mare driverelor perifericelor fata de cel al driverelor de sistem.
+// Cum protejeaza memoria un sistem de operare? Prin separarea zonelor de memorie prin adresa de inceput & cea de sfasit si verificarea depasirii acesteia.
+// Care sunt rolurile unui sistem de operare? Toate celelalte impreuna (alocarea resurselor, control executie programe, imbunatatire perform hard&soft, control acces user.
+// Ce inseamna modelul de comunicare prin pipes? Este o comunicare unidirectionala, de la procesul parinte spre procesul copill. 
+// Ce este o pagina murdara? O pagina care a fost modificata in memoria principala si care nu a fost scrisa inapoi pe disc. 
+// Ce tip de interfata cu utilizatorul trebuie sa ofere un sistem de operare? Toate celelalte impreuna (Interfata in linie comanda, grafica, Batch!& bibilio).
+// Care este principiul de baza al protectiei in contextul unui sistem modern de calcul? Principiul celui mai mic privilegiu.
+// Care este diferenta principala intre thread-uri kernel si thread-uri utilizator? Cele kernel sunt recunoscute de SO, while cele user sunt gestionate de biblio de user.
+// Ce este pthreads? API standard POSIX (IEEE 1003.1c) pentru crearea si sincronizarea thread-urilor.
+// Ce face algoritmul Banker in sistemul de operare? Evita starile de blocaj prin alocarea resurselor, intr-un mod care nu duce la o stare nesigura.
+// Afirmatie falsa LRU (Least Recently Used): noile pagini sunt adaugate la sfarsitul listei.
+// Modificarea unei zone de memorie de catre un fir de executie nu este vazuta de alt fir de executie care ruleasza in cadrul aceluiasi proces deoarece: Valoarea este citita din contextul procesor al sau
+// Care dintre urmatoarele nu este o conditie necesara pentru care sa se produca un blocaj: preemptiunea.
+// Ce nu constituie un avantaj al alocarii indexate a fisierelor? Necesita tabel de indexare.
+// Catre un fisier a fost creata o referinta hard si una soft. Dupa stergerea fisierului dupa numele sau: Continutul referintei hard nu va fi sters.
+// Ce inseamna alocare conditionata de resurse? Alocarea resurselor in functie de prioritatile proceselor.
+// Protocoalele TCP si UDP nu prezinta diferente semnificative in raport cu: Modul de adresare a punctelor de acces intre statii.
+// Care este scopul principal al unui thread pool? Toate celelalte variante sunt corecte.
+// Ce este memoria virtuala? Este o separare a memoriei logice a utilizatorului de memoria fizica.
+// Care sunt cele doua moduri de rulare a proceselor de catre sistemul de operare? Modul utilizator &cel nucleu.
+// Care este principiul de baza al protectiei in contextul unui sistem modern de calcul? Principiul celui mai mic privilegiu.
+// Care este rolul inode-urilor (index-node) intr-un sistem de fisiere Unix? Stocheasza metadate despre fisiere.
+// Care sunt rolurile unui sistem de operare? Toate celelalte impreuna.
+// Ce este imbatranirea in contextul planificarii in functie de prioritati? Procesele cu prioritate mai mica primesc o crestere de prioritate as time passes.
+// Care este scopul unui timer in cadrul unui stem de operare? Este folosit pentru intreruperea proceselor care dureaza prea mult. 
+// Ce este swapping-ul in contextul management-ului memoriei? Este procesul de transferare a proceselor intre memoria principala si disc, in functie de necesitati.
+// Secventa de apeluri sistem care permite unui server TCP sa comunice cu un client este: bind(); listen(); accept();.
+// Ce face un sistem de operare cand ruleaza un apel de sistem? Invoca apelul de sistem in nucleul sistemului de operare si intoarce rezultatul acestuia.
+// Care dintre urmatoarele nu este un beneficiu adus de structurarea in directoare? Niciuna. Toate sunt beneficii valide ale org in directoare.
+// Ce avantaje ofera modelul multithreading in comparatie cu cel singlethread? Reactivitate crescuta, partajare eficienta a resurselor, economie de timp si scalabilitate.
+// Ce face apelul de sistem fork() in UNIX? Creeaza noi procese.
+// In ce stare trece un proces dupa revenirea dintr-un apel sistem? In asteptare (waiting).
+// Care este principiul de functionare al algoritmului LRU (Least Recently Used)? Inlocuieste pagina care a fost folosita cel mai putin recent.
+// Ce este autorizarea in contextul unui sistem modern de operare? Este procesul prin care se determina ce poate face un utilizator.
+// Ce este alocarea continua in contextul managementului de memorie? Este procesul de alocare a memoriei astfel incat toate datele unui proces sa fie impreuna stocate, in memorie.
+// Care este principiul fundamental al evitarii asteptarii circulare in gestionarea resurselor? Se impune o ordonare totala a tuturor resurselor.
+// Un proces iese din starea pregatit daca: Este planificat sa se execute.
+// Care este rolul apelurilor de sistem într-un sistem de operare? Oferă o interfață programabilă pentru accesarea serviciilor oferite de sistemul de operare.
+// Ce operatii necesita apeluri de sistem? Toate celelalte impreuna.
+// Ce este un proces I/O-bound în planificarea proceselor? Un proces care este în permanentă așteptare.
+// Care este scopul planificării CPU? Împărțirea echitabilă a CPU între toate procesele.
+// Algoritmul de planificare Primul venit – Primul servit (FCFS) presupune că: procesul care ajunge primul este servit primul.
+// Ce reprezintă un proces în contextul sistemelor de operare? O abstractizare a sistemului de operare pentru a reprezenta ceea ce este necesar pentru a rula un singur program singlethread sau multithread.
+// Care este scopul principal al unui thread pool? Să creeze anticipat un număr de thread - uri care vor putea fi folosite la nevoie.
+// Care este unul dintre cele patru moduri de gestionare a blocajelor în sistemele informatice? Evitarea blocajelor.
+// Ce este un "live lock" în contextul sistemelor de operare? Un scenariu în care două sau mai multe procese continuă să-si schimbe stările, în funcție de alte procese, fără a face un progres.
+// Care dintre următoarele afirmații despre paginare este corectă? Paginarea presupune divizarea memoriei fizice în blocuri de mărime fixă, numite frames, și a memoriei logice în blocuri de aceeași mărime, numite pagini
+// Ce inseamna fragmentare in contextul alocarii de memorie? Este situația în care există suficientă memorie disponibilă pentru a satisface o cerere, dar aceasta nu este contiguă (externă) sau memoria alocată este puțin mai mare decât cererea (internă).
+// Ce este un cadru de pagină? Un bloc de memorie fizică în care poate fi stocată o pagină.
+// Care este principiul de funcționare al algoritmului optim de înlocuire a paginilor? Înlocuiește pagina care nu va fi folosită pentru cea mai lungă perioadă de timp în viitor.
+// Care este dezavantajul alocării de tip listă în lanț? Acces secvential slab.
+// Ce este autorizarea în contextul unui sistem modern de operare? Este procesul prin care se determină cine este de fapt utilizatorul.
+// Paravirtualizarea nu se poate aplica în cazul: sistemelor de operare cu cod sursa inchis.
+// Pentru rezolvarea rapidă a corespondenței dintre valoarea paginii unei adrese logice și valoarea cadrului fizic se utilizează: Un cache în procesor numit Translate Look-aside Buffer.
+// Care dintre următoarele operații poate să nu necesite apelul unei funcții de sistem? Planificarea rulării unui fir de execuție.
+// Planificatorul de procese nu se apelează la: Selectați răspunsul corect : Terminarea unui fir de execuție.
+// Ce se întâmplă dacă nu există un cadru liber în memoria principală? Se folosește un algoritm de înlocuire a paginilor pentru a selecta un cadru victimă.
+// Care sunt asemănările dintre criptare și codare? Ambele, codarea și criptarea, sunt procese care transformă informația dintr-o formă în alta.
+// Care dintre următoarele afirmații este adevărată în legătură cu execuția unei conducte în shell scripting? Codul de ieșire întors de conductă este cel întors de ultimul segment al său.
+// Ce afirmație este falsă în legătură cu algoritmul LRU (Least Recently Used) de înlocuire a paginii bazat pe time-stamp: Fiecare pagină are asociat numărul de accese ale programului până la referirea acesteia.
+// Pentru asigurarea creării unei singure instanțe de un anumit tip după încărcarea aplicației: Trebuie verificat că instanța nu a fost creată și în interiorul regiunii critice.
+// În cazul paginării memoriei: Câmpul director este un index din directorul de pagini folosit pentru obținerea adresei tabelei de pagină.
+// Componenta JIT Compiler a fost adăugată mașinii virtuale de Java pentru: Translatarea codului pentru mașina virtuală în instrucțiuni specifice mașinii reale.
+
+
+
+// Cinci procese cu durata de executie de 2, 5, 3, 1, si 4 unitati sunt lansate la momentele 0 1 la 3 si 5 pe un sistem monoprocesor. Care va fi timpul
+//mediu de terminare (TTM) daca se utilizeaza Shortest Job First?  5,4
+// Sase procese cu durata de executie de 8, 4, 2, 1, 3 si 2unitati sunt lansate la momentele 0, 1, 2, 3, 4 si 5 pe un sistem monoprocesor. Care va fi timpul
+// mediu de asteptare (TAM) definit ca... daca se utilizeaza algoritmul Shortest Remaining Time First?: 4
+// Ce afiseaza pentru argumentul 20? size=$(wc -1 $0 |tr -s ' ' | cut -d ' ' -f 2) if test $size -lt $1 ... : 20
+// Ce afiseaza scriptul de mai jos apelat cu argumentul 7? if test $1 -lt 3 then echo $1 else a=($0 $(expr$1-2) b la fel -1 expr $a + $b fi: 21
+// Patru procese cu durata de executie de 6, 4, 8 si 2 unitati sunt lansate simultan pe un sistem monoprocesor. Care va fi timpul mediu
+//de terminare (TTM) daca se utilizeaza algoritmul procesul cu durata minima primul (Shortest Job First?): 10
+// Patru procese cu durata de executie de 8, 4, 9 si 5 unitati sunt lansate la momentele 0, 1, 2, 3 pe un sistem monoprocesor. Care va fi timpul mediu
+//de terminare (TTM) daca se utilizeaza algoritmul procesul cu durata minima ramasa primul (Shortest Remaining Time First?): 15
+// Fie script-ul count_my_lines.sh avand urmatorul continut: lines=0 cat $0 | while read line do lines=$(expr $lines + 1) done echo "$lines". Dupa apelul ./..., se va afisa: 0
